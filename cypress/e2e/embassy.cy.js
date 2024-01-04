@@ -7,6 +7,6 @@ describe('template spec', () => {
     cy.get('[type="radio"]').click()
     cy.get('[name="Next"]').click()
     cy.get('[name="TimeSearchFirstAvailableButton"]').click()
-    cy.contains("label", "Fully booked").should("exist")
+    cy.contains("label", "Flubly booked").should("exist")
   })
 })
